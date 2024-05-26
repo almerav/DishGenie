@@ -16,7 +16,7 @@ To set up this project, I began by writing the code on GitHub, using the Python 
 
 ### Prerequisites
 
-- Python 3.10.0
+- Python 3.12.2
 - Git
 - Streamlit
 
@@ -33,7 +33,7 @@ To set up this project, I began by writing the code on GitHub, using the Python 
 1. **Run the application:**
 
     ```bash
-    streamlit run main.py
+    streamlit run app.py
     ```
 
 2. **Interact with the application:** Open the URL provided by Streamlit in your browser and use the interface to interact with the application.
@@ -45,7 +45,7 @@ To set up this project, I began by writing the code on GitHub, using the Python 
     - Navigate to [Streamlit Cloud](https://share.streamlit.io/).
     - Click on "New app" and connect your GitHub repository.
     - Choose the repository and branch (usually `main` or `master`).
-    - Set the file path to `main.py`.
+    - Set the file path to `app.py`.
     - In the advanced settings, add your Google API key under `Secrets`:
 
       ```toml
